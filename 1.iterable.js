@@ -5,6 +5,8 @@
 // 순회가능한 객체이다 라는걸 알 수 있음
 // 순회가 가능하면 무엇을 할 수 있나 ? for, of spread
 
+// for문을 이용해서 주로 사용한다고 한다.
+
 const array = [1, 2, 3];
 for (const item of array.entries()) {
   console.log(item);
@@ -24,4 +26,3 @@ while (true) {
   if (item.done) break;
   console.log(item.value);
 }
-와난 이런
