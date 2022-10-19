@@ -24,3 +24,4 @@ while (true) {
   if (item.done) break;
   console.log(item.value);
 }
+와난 이런
