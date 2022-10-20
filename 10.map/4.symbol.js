@@ -12,7 +12,6 @@ console.log(key1 === key2);
 
 //동일한 이름으로 하나의 키를 사용하고 싶다면,, Symbol.for
 // 전역 심벌 레지스트릐 (Global Symbol Registry)
-
 const k1 = Symbol.for('key');
 const k2 = Symbol.for('key');
 console.log(k1 === k2);

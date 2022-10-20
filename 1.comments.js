@@ -10,7 +10,12 @@
  */
 
 //외부에서 많이 쓰이는 함수 API 인 경우 JSDOC을 사용하면 좋음
-
+/**
+ *
+ * @param {*} a
+ * @param {*} b
+ * @returns
+ */
 function add(a, b) {
   return a + b;
 }
